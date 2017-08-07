@@ -1,0 +1,35 @@
+#video {
+	position: absolute;
+	top: -1000px;
+}
+
+button {
+	cursor: hand;
+	cursor: pointer;
+	padding: 20px 40px;
+	position: fixed;
+	right: 15%;
+	top: 50%;
+	text-transform: uppercase;
+}
+
+button:focus {
+	outline: 0;
+}
+
+canvas {
+	left: 45%;
+	top: 45%;
+	margin-left: -200px;
+	margin-top: -150px;
+	position: absolute;
+}
+
+#fast {
+	background: #fff;
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+#face {
+	background: transparent;
+}
